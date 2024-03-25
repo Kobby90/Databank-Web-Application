@@ -1,0 +1,105 @@
+body {
+            background-image: url('https://onlineservice.databankgroup.com/redemptions/Images/bg5.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            border: 2px solid;
+            height: 1220px;
+            background-color: rgba(241, 241, 241, 0.7); 
+            text-align: center;
+            margin: 20px;
+        }
+
+        .container img {
+            overflow-clip-margin: content-box;
+            height: auto;
+            max-width: 20%;
+            border: 0;
+            position: absolute;
+            top: 40px; 
+            left: 30px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin: 100px 0 50px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            height: 5%;
+        }
+
+        .input-container {
+            margin-right: 20px;
+            height: 120px;
+            width: 300px;
+            font-weight: bold;
+        }
+
+        select, button {
+            margin-top: 5px;
+            height: 50px;
+            width: 310px;
+            font-size: 15px;
+            border-radius: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #116647;
+            height:70px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: rgb(149, 196, 72);
+        }
+
+        #status {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        #loading {
+            display: none;
+            margin-top: 20px;
+        }
+
+        #loading img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .navigation {
+            margin-top: 20px;
+        }
+
+        .navigation a {
+            margin: 0 10px;
+            font-size: 25px;
+            color: #116647;
+            text-decoration: none;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
