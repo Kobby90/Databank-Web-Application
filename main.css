@@ -1,0 +1,87 @@
+ body {
+    font-family: Montserrat, sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2023/08/21/03/34/droplets-8203505_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 700px;
+    background-color: #eee; 
+    margin: 50px auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  input[type="date"],
+  select,
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .inline-container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+
+  .inline-container .form-group {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: center; /* Align items vertically */
+    margin-right: 50px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  #submitBtn {
+    display: inline-block; /* Align buttons horizontally */
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #status {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: justify;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    40% {font-weight: bold;}
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  /* Added styling for the Update Database button */
+  #updateDatabaseBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #008CBA;
+  }
